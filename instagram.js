@@ -1,6 +1,6 @@
 const pup = require('puppeteer');
-let id= "puppeteer.x.selenium";
-let pass = "1234#Harshit";
+let id= //your pass
+let pass = //your pass
 let data = require("./comments");
 
 let obj = {
@@ -90,79 +90,3 @@ async function like_comment(url){
 }
 
 main();
-
-
-//Krishna
-
-// const pup = require("puppeteer");
-// let id = "venerik833@0pppp.com";
-// let pass = "pep@123";
-// // let challenges = require("./pepchallenges");
-
-// // let tab;
-// async function main(){
-//     let browser = pup.launch({
-//     headless : false,
-//     defaultViewport :false,
-//     args: ["--start-maximized"]
-//     });
-//     let pages = await (await browser).pages();
-//     let tab = pages[0];
-//    await tab.goto("https://www.instagram.com/");
-//    await tab.waitForSelector("input[name='username']",{visible:true});
-//    await tab.type("input[name='username']",id);
-//    await tab.type("input[type='password']",pass);
-//    await tab.click("button[type='submit']");
-//    await tab.waitForSelector("svg[aria-label='Activity Feed']",{visible:true});
-//    await tab.click("svg[aria-label='Activity Feed']");
-//    await tab.waitForSelector("._7UhW9.xLCgt.MMzan._0PwGv.uL8Hv.M8ipN",{visible:true});
-//    await tab.click("._7UhW9.xLCgt.MMzan._0PwGv.uL8Hv.M8ipN");
-//   //  await tab.waitForSelector("FPmhX.notranslate.yrJyr",{visible:true});
-//     // let reuestclaas = await tab.$$("FPmhX.notranslate.yrJyr");  
-//     // let request = await tab.evaluate(function(ele){
-//     //  return ele.getAttribute("href");
-//     //  },reuestclaas)
-//       // console.log(request.length);
-   
-//   // for(let i = 0 ; i < request.length; i++){
-//   //  await tab.click("https://www.instagram.com/" +reuest);
-//   // }
-//   // .then(function(data){
-//   //   let urlFetchPromises = [];
-//   //  for(let i of data){
-//   //    let urlFetchPromise = tab.evaluate(function(ele){
-//   //     return ele.getAttribute("href");
-//   //    },i);
-//   //    urlFetchPromises.push(urlFetchPromise);
-//   //  }
-//   //   return Promise.all(urlFetchPromises);
-
-//   //  for(int i = 0; i < ; i++ )
-//    await tab.waitForSelector(".Igw0E.IwRSH.eGOV_._4EzTm.JI_ht button[type='button']",{visible:true});
-// //    await tab.click(".Igw0E.IwRSH.eGOV_._4EzTm.JI_ht button[type='button']");
-//     // let table = await tab.$$(".PUHRj.H_sJK div");
-//     // console.log(table.length);
-//     let link = await tab.$$("._7WumH a");
-//     console.log(link.length);
-//     let profile_link = await tab.evaluate(function(ele){
-//         return ele.getAttribute("href");
-//     },link[0]);
-//     console.log(profile_link);
-    
-
-//     let profile_link1 = await tab.evaluate(function(ele){
-//         return ele.getAttribute("href");
-//     },link[1]);
-//     console.log(profile_link1);
-
-//     let profile_link2 = await tab.evaluate(function(ele){
-//         return ele.getAttribute("href");
-//     },link[2]);
-//     console.log(profile_link2);
-
-
-//     await tab.goto("https://www.instagram.com"+profile_link);
-//     await tab.goto("https://www.instagram.com"+profile_link1);
-//     await tab.goto("https://www.instagram.com"+profile_link2);
-// }
-// main();
